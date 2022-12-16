@@ -25,7 +25,7 @@
         <element attributes="edge_encryption_enabled=true" label="Local Login" max_length="40" name="u_local_domain" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="If Local login Config Process Repeat" max_length="40" name="u_local_login" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Login In Mastek Domain" max_length="40" name="u_login_in_mastek_domain" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Mobile No." max_length="40" name="u_mobile_no" type="integer"/>
+        <element label="Mobile No." max_length="13" name="u_mobile_no" type="string"/>
         <element label="Name" max_length="40" name="u_name" type="string"/>
         <element label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Reason" max_length="40" name="u_reason" type="string"/>

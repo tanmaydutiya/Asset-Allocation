@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Tanmay.Bhatiya@mastek.com</sys_created_by>
+        <sys_created_on>2022-12-16 06:34:25</sys_created_on>
+        <sys_id>4c2136ad97731110caf63e66f053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedEmailWrapper</sys_name>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sys_scope_privilege_4c2136ad97731110caf63e66f053af60</sys_update_name>
+        <sys_updated_by>Tanmay.Bhatiya@mastek.com</sys_updated_by>
+        <sys_updated_on>2022-12-16 06:34:25</sys_updated_on>
+        <target_name>ScopedEmailWrapper</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

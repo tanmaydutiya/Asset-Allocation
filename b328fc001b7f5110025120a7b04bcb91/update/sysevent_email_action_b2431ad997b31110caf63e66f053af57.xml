@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_mast4_new_user_a_new_user_asset_allocation</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_mast4_new_user_a.DeliveryMail</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 0%;" border="1" width="65" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 40px 30px 40px 30px;" bgcolor="#ffffff">
+<table style="height: 435px;" border="0" width="538" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 534px;">
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Hi ${u_name},</span></p>
+<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="color: #1f497d;">The following IT Asset has been delivered to you, please confirm the same.</span></p>
+<p><span style="font-size: 12.0pt; font-family: 'Times New Roman', serif; color: #1f497d;">Please note do not login &amp; use the laptop unless you have received your Mastek credentials from the HR.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 534px;">
+<table style="background-color: #b3d9ff; height: 130px; width: 100%;" border="0" width="100%" cellspacing="2" cellpadding="2">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Location:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">MAHAPE</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Work Center:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">Office</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> UserName:&nbsp;</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Employee Code</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_job_requisition_id}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Asset Type:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times; font-size: 10pt;">${u_alloted_asset.model_category.name} </span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Make:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_alloted_asset.model.manufacturer.name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Model:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_alloted_asset.model.display_name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Serial No. </strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_alloted_asset.serial_number}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Delivery Partner Name:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_delivery_partner_name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> AWB NO.:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_awb_no}</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: 'times new roman', times;">Please Confirm or Reject this request using the below buttons .</span></p>
+<table style="height: 17px;" width="536">
+<tbody>
+<tr style="height: 17px;">
+<th style="border-style: none; width: 261.542px; height: 17px;"><span style="font-family: 'times new roman', times;">${mail_script:received_asset}</span></th>
+<th style="border-style: none; width: 262.458px; height: 17px;"><span style="font-family: 'times new roman', times;">${mail_script:reject_asset}</span></th>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 40px 30px 40px 30px; color: white;" align="center" bgcolor="#003d63" width="100%"><span style="font-family: 'times new roman', times;">&copy; Copyright 2016 - 2023. All rights reserved</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Confirmation Mail or cancellation</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${u_name} confirm the status of IT asset</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 09:46:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2431ad997b31110caf63e66f053af57</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Confirmation Mail or cancellation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sysevent_email_action_b2431ad997b31110caf63e66f053af57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-15 09:58:57</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

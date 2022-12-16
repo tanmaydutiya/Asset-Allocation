@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_mast4_new_user_a.DCThelp desk</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>DCThelp desk</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>Tanmay104190</sys_created_by>
+        <sys_created_on>2022-12-11 10:20:48</sys_created_on>
+        <sys_id>fbe471841b339110025120a7b04bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mast4_new_user_a.DCThelp desk</sys_name>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sys_user_role_fbe471841b339110025120a7b04bcbcd</sys_update_name>
+        <sys_updated_by>Tanmay104190</sys_updated_by>
+        <sys_updated_on>2022-12-11 10:20:48</sys_updated_on>
+    </sys_user_role>
+</record_update>

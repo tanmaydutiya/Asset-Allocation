@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_mast4_new_user_a_new_user_asset_allocation</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_mast4_new_user_a.ConfigMail</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table border="0" width="85" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 40px 30px 40px 30px;" bgcolor="#ffffff">
+<table style="border-collapse: collapse; width: 550px; height: 144px;" border="1" width="538" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 116px;">
+<td style="width: 498px; height: 116px;">
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp;</span></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp; &nbsp; &nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #1f497d; font-family: 'times new roman', times;">&nbsp; &nbsp;Hello ${u_name},</span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;">&nbsp;&nbsp;</span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><span style="color: #1f497d;">&nbsp; Kindly follow these guidelines mentioned in Pdf file <span style="font-size: 11pt; font-family: 'Times New Roman', serif; color: #1f497d;">to login to the laptop.&nbsp;</span> </span></span></p>
+<p style="margin: 0in 0in 0.0001pt 4.8pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11pt; color: #1f497d;">&nbsp;&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt 4.8pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11pt; color: #1f497d;">&nbsp; Please note login to the laptop with the credentials provided to you by the HR </span></p>
+<p style="margin: 0in 0in 0.0001pt 4.8pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11pt; color: #1f497d;">&nbsp; team.</span></p>
+<p style="margin: 0in 0in 0.0001pt 4.8pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11pt; color: #1f497d;">&nbsp;&nbsp;</span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;">&nbsp; <a title="Download PDF" href="sys_attachment.do?sys_id=c8f2d6d997b31110caf63e66f053af21">Download PDF</a></span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><span style="color: #1f497d;">&nbsp; And keep your laptop ideal for 45 minutes.</span></span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #1f497d; font-family: 'times new roman', times;">&nbsp;&nbsp;</span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #1f497d; font-family: 'times new roman', times;">&nbsp; Then ping ${u_assigned_to} on teams for further configuration.</span></p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0in 4.8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; font-family: 'times new roman', times;"><strong><span style="color: #1f497d;">&nbsp; &nbsp;Warm Regards,</span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; font-family: 'times new roman', times;"><strong><span style="color: #1f497d;">&nbsp; &nbsp;${u_assigned_to}</span></strong></span></p>
+<p style="background: white; margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><span style="font-size: 12pt; color: #1f497d;">&nbsp; &nbsp;DCT-Digital Catalyst Team</span></strong></span></p>
+<p style="background: white; margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #0f243e; font-family: 'times new roman', times;">&nbsp; &nbsp;Mastek Ltd | Mastek Millennium Center, Millennium Business Park, Mahape, </span></p>
+<p style="background: white; margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #0f243e; font-family: 'times new roman', times;">&nbsp; &nbsp;Navi </span><span style="color: #0f243e; font-family: 'times new roman', times; font-size: 11pt;">Mumbai-400710 |</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><span style="font-size: 14pt; color: #1f497d;">&nbsp; DCT </span></strong><strong><span style="color: #1f497d;">is always there for You! Please click on Below links, if you require our </span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><span style="color: #1f497d;">&nbsp; &nbsp;help</span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><span style="color: #1f497d;">&nbsp; &nbsp;Single click to connect with IT Services,</span> </span><span style="font-family: 'times new roman', times;"><strong><span style="font-size: 9pt; color: #1f497d;">Click Here </span></strong><strong><span style="font-size: 10pt; color: #1f497d;">https:</span></strong><span style="color: #1f497d;">//</span><strong><span style="font-size: 10pt; color: #1f497d;"><a style="color: #0563c1; text-decoration: underline;" href="http://mastekin.service-now.com/sp">mastekin.service-now.com/sp</a></span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><span style="color: #002060;">&nbsp; &nbsp;Register yourself on </span><a style="color: #0563c1; text-decoration: underline;" href="https://passwordreset.microsoftonline.com/">Microsoft Online Password Reset </a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #002060; font-family: 'times new roman', times;">&nbsp; &nbsp;for self-healing password expiry and Account Lockout issues</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #1f497d; font-family: 'times new roman', times;">&nbsp; &nbsp;Service Desk Hotline: 4505 /4506</span></p>
+<p style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><em><span style="color: #c55a11;">&nbsp;</span></em></strong></span></p>
+<p style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><em><span style="color: #c55a11;">&nbsp; &nbsp;For Escalation please contact </span></em></strong></span></p>
+<p style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><em><span style="color: #c55a11;">&nbsp; &nbsp;FMS Lead &ndash; <a style="color: #0563c1; text-decoration: underline;" href="mailto:Fmslead@mastek.com">Fmslead@mastek.com</a> &ndash; (+91 9930282545 /+91 9930877074)</span></em></strong></span></p>
+<p style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'times new roman', times;"><strong><em><span style="color: #c55a11;">&nbsp; &nbsp;Mahavir Jain &ndash; </span></em></strong><strong><u><span style="color: #3109db;"><a style="color: #0563c1; text-decoration: underline;" href="mailto:Mahavir.Jain@mastek.com">Mahavir.Jain@mastek.com</a></span></u></strong> <strong><em><span style="color: #c55a11;">+91 9820841024</span></em></strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 15px;">
+<td style="padding: 40px 30px; color: white; height: 15px; width: 438px;" align="center" bgcolor="#003d63"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp;&copy; Copyright 2016 - 2023. All rights reserved</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Config PDF Mail</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Laptop Configuration Guidelines</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 09:41:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>993292d997b31110caf63e66f053af4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Config PDF Mail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sysevent_email_action_993292d997b31110caf63e66f053af4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-15 09:44:41</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

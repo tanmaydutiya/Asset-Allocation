@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>10</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+    var isAdmin = g_user.hasRole('x_mast4_new_user_a.new_user_asset_allocation_user');
+    var admin = g_user.hasRole('x_mast4_new_user_a.AssetsManager');
+    var isFnL = g_user.hasRole('x_mast4_new_user_a.F&Lteam');
+    var isUser = g_user.hasRole('x_mast4_new_user_a.DCThelp desk');
+    if (isAdmin && admin) {
+       g_form.setReadOnly('number', false);
+        g_form.setReadOnly('u_name', false);
+        g_form.setReadOnly('u_allot_asset', false);
+        g_form.setReadOnly('u_business_unit', false);
+        g_form.setReadOnly('u_company', false);
+        g_form.setReadOnly('u_delivery_address', false);
+        g_form.setReadOnly('u_designation', false);
+        g_form.setReadOnly('u_email', false);
+        g_form.setReadOnly('u_mobile_no', false);
+        g_form.setReadOnly('u_base_location', false);
+        g_form.setReadOnly('u_user_id', false);
+        g_form.setReadOnly('u_awb_no', false);
+        g_form.setReadOnly('u_job_requ_id', false);
+        g_form.setReadOnly('u_delivery_partner', false);
+        g_form.setReadonly('u_stage', false);
+        g_form.setReadOnly('u_assigned_to', false);
+        g_form.setReadOnly('u_assignment_group', false);
+        g_form.setReadOnly('u_hostname', false);
+        g_form.setReadonly('u_login_in_mastek_domain', false);
+        g_form.setReadonly('u_local_domain', false);
+        g_form.setReadonly('u_local_login', false);
+        g_form.setReadonly('u_domain_login', false);
+        g_form.setReadOnly('u_added_encryption', false);
+    } else if (isFnL) {
+        g_form.setReadOnly('number', true);
+        g_form.setReadOnly('u_name', true);
+        g_form.setReadOnly('u_allot_asset', true);
+        g_form.setReadOnly('u_business_unit', true);
+        g_form.setReadOnly('u_company', true);
+        g_form.setReadOnly('u_delivery_address', true);
+        g_form.setReadOnly('u_designation', true);
+        g_form.setReadOnly('u_email', true);
+        g_form.setReadOnly('u_mobile_no', true);
+        g_form.setReadOnly('u_base_location', true);
+        g_form.setReadOnly('u_job_requisition_id', true);
+        g_form.setReadOnly('u_assigned_to', true);
+        g_form.setReadOnly('u_assignment_group', true);
+        g_form.setReadOnly('u_hostname', true);
+        g_form.setReadonly('u_state', true);
+        g_form.setMandatory('u_stage', true);
+        g_form.setMandatory('u_awb_no', true);
+        g_form.setMandatory('u_delivery_partner', true);
+        g_form.setMandatory('u_other', ture);
+        g_form.setReadonly('u_user_added_in_group', true);
+        g_form.setReadonly('u_login_in_mastek_domain', true);
+        g_form.setReadonly('u_local_domain', true);
+        g_form.setReadonly('u_local_login', true);
+        g_form.setReadonly('u_domain_login', true);
+        g_form.setReadOnly('u_added_encryption', true);
+        g_form.removeOption('u_stage', 'u_new');
+        g_form.removeOption('u_stage', 'u_allocated');
+        g_form.removeOption('u_stage', 'u_delivered_confirm');
+        g_form.removeOption('u_stage', 'u_cancelled_reverse');
+    } else if (isUser) {
+        g_form.setReadOnly('number', true);
+        g_form.setReadOnly('u_name', true);
+        g_form.setReadOnly('u_alloted_asset', true);
+        g_form.setReadOnly('u_business_unit', true);
+        g_form.setReadOnly('u_company', true);
+        g_form.setReadOnly('u_delivery_address', true);
+        g_form.setReadOnly('u_designation', true);
+        g_form.setReadOnly('u_email', true);
+        g_form.setReadOnly('u_mobile_no', true);
+        g_form.setReadOnly('u_base_location', true);
+        g_form.setReadOnly('u_awb_no', true);
+        g_form.setReadOnly('u_job_requisition_id', true);
+        g_form.setReadOnly('u_delivery_partner_name', true);
+        g_form.setReadonly('u_stage', true);
+        g_form.setReadOnly('u_other', true);
+        g_form.setMandatory('u_assigned_to', true);
+        
+    }
+
+}]]></script_true>
+        <set_values/>
+        <short_description>All Role Access</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Tanmay104190</sys_created_by>
+        <sys_created_on>2022-12-11 10:56:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>602579841b339110025120a7b04bcbc4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>All Role Access</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sys_ui_policy_602579841b339110025120a7b04bcbc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-15 11:25:21</sys_updated_on>
+        <table>x_mast4_new_user_a_new_user_asset_allocation</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

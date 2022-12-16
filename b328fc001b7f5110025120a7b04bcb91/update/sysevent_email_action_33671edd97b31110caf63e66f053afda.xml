@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_mast4_new_user_a_new_user_asset_allocation</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_mast4_new_user_a.UserAWB</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 0%;" border="1" width="65" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 40px 30px 40px 30px;" bgcolor="#ffffff">
+<table style="height: 428px;" border="0" width="538" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 111px;">
+<td style="width: 534px; height: 111px;">
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Hello ${u_name},</span></p>
+<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-family: 'times new roman', times; color: #1f497d;">The below mentioned laptop has been couriered to the mentioned address. Please use the below tracking number to track your laptop delivery.</span></p>
+</td>
+</tr>
+<tr style="height: 317px;">
+<td style="width: 534px; height: 317px;">
+<table style="background-color: #b3d9ff; height: 159px; width: 100%;" border="0" width="100%" cellspacing="2" cellpadding="2">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Location:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_base_location}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Work Center:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">Office</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 15px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> User Name:&nbsp;</strong></span></td>
+<td style="width: 63.5639%; height: 15px;" valign="top"><span style="font-family: 'times new roman', times;">${u_name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Employee Code</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_job_requisition_id}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 14px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Delivery Address:</strong></span></td>
+<td style="width: 63.5639%; height: 14px;" valign="top"><span style="font-family: 'times new roman', times;">${u_delivery_address}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Asset Type:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times; font-size: 8pt;"><span style="font-size: 12pt;">${u_alloted_asset.model_category.name}</span><br /></span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Make:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_alloted_asset.model.manufacturer.name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Model:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_alloted_asset.model.display_name}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Serial No. </strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_alloted_asset.serial_number}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Host Name</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">-</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> Delivery Partner Name:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_delivery_partner_name} ${u_other}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 31.4361%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;"><strong> AWB NO.:</strong></span></td>
+<td style="width: 63.5639%; height: 13px;" valign="top"><span style="font-family: 'times new roman', times;">${u_awb_no}</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<span style="font-family: 'times new roman', times;"><!--<p><span style="font-family: terminal, monaco;">Please Confirm or Reject this request using the below buttons .</span></p>--></span>
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="color: #2f5496;">Warm Regards,</span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="color: #2f5496;">Mr. Sudarshan T- 7506839846 </span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="color: #2f5496;">Sudarshan.Tamasware@mastek.com</span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 40px 30px 40px 30px; color: white;" align="center" bgcolor="#003d63" width="100%"><span style="font-family: 'times new roman', times;">&copy; Copyright 2016 - 2023. All rights reserved</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Joinee Courier Mail</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${u_name} Your Laptop Has Been Dispatched </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 10:04:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33671edd97b31110caf63e66f053afda</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Joinee Courier Mail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sysevent_email_action_33671edd97b31110caf63e66f053afda</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-15 10:05:29</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

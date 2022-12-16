@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="New User Asset Allocation" max_length="40" name="x_mast4_new_user_a_new_user_asset_allocation" sizeclass="0" type="collection">
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Added Encryption" max_length="40" name="u_added_encryption" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Allot Asset" mandatory="true" max_length="32" name="u_allot_asset" reference="alm_hardware" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_assignment_group" dependent_on_field="u_assignment_group" label="Assigned To" max_length="32" name="u_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment Group" max_length="32" name="u_assignment_group" reference="sys_user" type="reference"/>
+        <element label="AWB No." max_length="40" name="u_awb_no" type="string"/>
+        <element label="Base Location" max_length="40" name="u_base_location" type="string"/>
+        <element label="Business Unit" max_length="40" name="u_business_unit" type="string"/>
+        <element label="Company" max_length="40" name="u_company" type="string"/>
+        <element label="Delivery Address" max_length="100" name="u_delivery_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Delivery Partner Name" max_length="40" name="u_delivery_partner" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Blue Dart" sequence="10" value="u_blue_dart"/>
+                <element inactive_on_update="false" label="DTDC" sequence="20" value="u_dtdc"/>
+                <element inactive_on_update="false" label="Other" sequence="30" value="u_other"/>
+            </choice>
+        </element>
+        <element label="Designation" max_length="40" name="u_designation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Domain Login &amp; Configuration of outlook and teams" max_length="40" name="u_domain_login" type="boolean"/>
+        <element label="Email" max_length="20" name="u_email" type="string"/>
+        <element label="HostName" max_length="30" name="u_hostname" type="string"/>
+        <element label="Job Requisition ID" max_length="40" name="u_job_requ_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Local Login" max_length="40" name="u_local_domain" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="If Local login Config Process Repeat" max_length="40" name="u_local_login" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Login In Mastek Domain" max_length="40" name="u_login_in_mastek_domain" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile No." max_length="40" name="u_mobile_no" type="integer"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Reason" max_length="40" name="u_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="u_new" label="Stage" mandatory="true" max_length="40" name="u_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="u_new"/>
+                <element inactive_on_update="false" label="Allocated" sequence="20" value="u_allocated"/>
+                <element inactive_on_update="false" label="Packed / In Dispatch" sequence="30" value="u_packed_dispatch"/>
+                <element inactive_on_update="false" label="Delivered" sequence="40" value="u_delivered"/>
+                <element inactive_on_update="false" label="Delivered &amp; Confirmed" sequence="50" value="u_delivered_confirm"/>
+                <element inactive_on_update="false" label="Cancelled / Reverse" sequence="60" value="u_cancelled_reverse"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="u_new" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="u_new"/>
+                <element inactive_on_update="false" label="In Progress" sequence="20" value="u_progress"/>
+                <element inactive_on_update="false" label="In Configuration" sequence="30" value="u_config"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="40" value="u_cancelled"/>
+                <element inactive_on_update="false" label="On Hold" sequence="40" value="u_hold"/>
+                <element inactive_on_update="false" label="Resolved" sequence="50" value="u_resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="60" value="u_close"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="User Added in Group" max_length="40" name="u_user_added_in_group" type="boolean"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_allot_asset"/>
+        </index>
+        <index name="index3">
+            <element name="u_assignment_group"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_mast4_new_user_a_new_user_asset_allocation</collection>
+        <condition table="x_mast4_new_user_a_new_user_asset_allocation">u_nameISNOTEMPTY^EQ<item endquery="false" field="u_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table border="0" width="65" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 40px 30px 40px 30px;" bgcolor="#ffffff">
+<table style="border-collapse: collapse; width: 500px; height: 144px;" border="1" width="538" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 116px;">
+<td style="width: 498px; height: 116px;">
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp;</span></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp; &nbsp; &nbsp; Hello Team,</span></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times;"><span style="font-size: 10pt;">&nbsp; &nbsp; <span style="color: #000000;">&nbsp; </span></span><span style="color: #000000;"><span style="font-size: 10pt;">Employee Name - </span><span style="font-size: 10.0pt;">New Joinee details has been filled in Asset Allocation module.</span></span></span></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times;"><span style="font-size: 10pt; color: #000000;">&nbsp; &nbsp; &nbsp; Please </span><span style="font-size: 10.0pt;"><span style="color: #000000;">Check the</span> details and allot the asset as per requirement<span style="color: #1f497d;">.</span></span></span></p>
+<p style="text-align: left;"><span style="font-size: 10pt; font-family: 'times new roman', times;">&nbsp; &nbsp; &nbsp; User Name:&nbsp; ${u_name}<br /></span></p>
+<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10pt; font-family: 'times new roman', times;">&nbsp; &nbsp; &nbsp; Number: ${number}<br /></span></p>
+<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10pt; font-family: 'times new roman', times;">&nbsp; &nbsp; &nbsp; Email: ${u_email}<br /></span></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp; &nbsp; &nbsp; Thanks</span></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp; &nbsp; &nbsp; ServiceNow Team.</span></p>
+<p><span style="font-family: 'times new roman', times;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 15px;">
+<td style="padding: 40px 30px; color: white; height: 15px; width: 438px;" align="center" bgcolor="#003d63"><span style="font-family: 'times new roman', times; font-size: 10pt;">&nbsp;&copy; Copyright 2016 - 2023. All rights reserved</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Joinee User Created mail To Manager</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${u_name} - New Joinee User Details Is Updated in Service Now</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 10:07:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57d7d25197f31110caf63e66f053afec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Joinee User Created mail To Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sysevent_email_action_57d7d25197f31110caf63e66f053afec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-15 10:15:34</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

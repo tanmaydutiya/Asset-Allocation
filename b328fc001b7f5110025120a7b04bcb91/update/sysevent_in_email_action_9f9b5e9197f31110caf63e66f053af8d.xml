@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEIntimation - Laptop Requirement for^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Intimation - Laptop Requirement for"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Creation of User </name>
+        <order>50</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction( /*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+    // Implement email action here
+    var rArray = email.recipients_array;
+
+    //     var nEmail = " network@example.com ";
+    //     for (i=0; i<rArray.length; i++) {
+    //         if (nEmail == rArray[i]) {
+    //             current.assignment_group = ' 287ebd7da9fe198100f92cc8d1d2154e ';
+    //         }
+    //     }
+    // var email_log = new GlideRecord('x_893499_demo_asse_user_details');
+    current.caller_id = email.from;
+    gs.info(email.body.deliver);
+    gs.info("name" + email.body.name);
+    gs.info(email.body_html);
+    gs.info("Email Data " + email.body_text);
+    gs.info(email.body.id);
+    gs.info(email.body.number);
+    // 	current.body = current.body.replaceAll('-', ':');
+
+    if (email.body.name != undefined) {
+        current.u_name = email.body.name;
+    }
+    if (email.body.deliver_at_location != undefined) {
+        current.u_delivery_address = email.body.deliver_at_location;
+    }
+    if (email.body.handover_at_office != undefined) {
+        current.u_delivery_address = email.body.handover_at_office;
+    }
+    if (email.body.mobile_number != undefined) {
+        current.u_mobile_no = email.body.mobile_number;
+    }
+    if (email.body.email_id != undefined) {
+		//var bodySplit = email.body.email_id.split("<");
+        current.u_email = email.body.email_id;
+    }
+    if (email.body.designation != undefined) {
+        current.u_designation = email.body.designation;
+    }
+    if (email.body.business_unit != undefined) {
+        current.u_business_unit = email.body.business_unit;
+    }
+    if (email.body.base_location != undefined) {
+        current.u_base_location = email.body.base_location;
+    }
+    if (email.body.company != undefined) {
+        current.u_company = email.body.company;
+    }
+    if (email.body.job_requisition_id != undefined) {
+        current.u_job_requisition_id = email.body.job_requisition_id;
+    }
+    if (email.body.description != undefined) {
+        current.description = email.body.description;
+    }
+
+    current.insert();
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 10:22:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f9b5e9197f31110caf63e66f053af8d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Creation of User </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sysevent_in_email_action_9f9b5e9197f31110caf63e66f053af8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-15 10:24:22</sys_updated_on>
+        <table>x_mast4_new_user_a_new_user_asset_allocation</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_stage" table="x_mast4_new_user_a_new_user_asset_allocation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_stage</element>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:02:36</sys_created_on>
+            <sys_id>e11321841bff5110025120a7b04bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_stage</sys_name>
+            <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+            <sys_update_name>sys_choice_x_mast4_new_user_a_new_user_asset_allocation_u_stage</sys_update_name>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:02:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:02:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96f2e1841bff5110025120a7b04bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:02:36</sys_updated_on>
+            <value>u_new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Allocated</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:03:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>422369041bff5110025120a7b04bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:03:40</sys_updated_on>
+            <value>u_allocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Packed / In Dispatch</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:04:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>286329841bff5110025120a7b04bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:04:46</sys_updated_on>
+            <value>u_packed_dispatch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivered</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:05:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e9329841bff5110025120a7b04bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:05:59</sys_updated_on>
+            <value>u_delivered</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivered &amp; Confirmed</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:06:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ae3a9441bff5110025120a7b04bcb66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:06:33</sys_updated_on>
+            <value>u_delivered_confirm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled / Reverse</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 09:07:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4104e5841bff5110025120a7b04bcb1e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 09:07:19</sys_updated_on>
+            <value>u_cancelled_reverse</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

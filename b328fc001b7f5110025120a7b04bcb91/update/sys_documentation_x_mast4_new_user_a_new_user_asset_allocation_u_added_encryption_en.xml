@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_added_encryption" label="Added Encryption" language="en" table="x_mast4_new_user_a_new_user_asset_allocation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_added_encryption</element>
+            <help/>
+            <hint/>
+            <label>Added Encryption</label>
+            <language>en</language>
+            <name>x_mast4_new_user_a_new_user_asset_allocation</name>
+            <plural>Added Encryptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Tanmay104190</sys_created_by>
+            <sys_created_on>2022-12-11 08:21:35</sys_created_on>
+            <sys_id>f4b9914c1bbf5110025120a7b04bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Added Encryption</sys_name>
+            <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+            <sys_update_name>sys_documentation_x_mast4_new_user_a_new_user_asset_allocation_u_added_encryption_en</sys_update_name>
+            <sys_updated_by>Tanmay104190</sys_updated_by>
+            <sys_updated_on>2022-12-11 08:21:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

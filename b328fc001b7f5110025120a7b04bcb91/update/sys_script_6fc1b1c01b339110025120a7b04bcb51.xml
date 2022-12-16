@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_mast4_new_user_a_new_user_asset_allocation</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_mast4_new_user_a_new_user_asset_allocation">u_stage=u_delivered^EQ<item display_value="Delivered" endquery="false" field="u_stage" goto="false" newquery="false" operator="=" or="false" value="u_delivered"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Confirm Delivery</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    gs.info('The Event should fire');
+    var email = current.u_email.toString();
+    gs.eventQueue("x_mast4_new_user_a.DeliveryMail", current, email, gs.getUserName());
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Tanmay104190</sys_created_by>
+        <sys_created_on>2022-12-11 10:08:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fc1b1c01b339110025120a7b04bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Confirm Delivery</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New User Asset Allocation " source="x_mast4_new_user_a">b328fc001b7f5110025120a7b04bcb91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New User Asset Allocation ">b328fc001b7f5110025120a7b04bcb91</sys_scope>
+        <sys_update_name>sys_script_6fc1b1c01b339110025120a7b04bcb51</sys_update_name>
+        <sys_updated_by>Tanmay104190</sys_updated_by>
+        <sys_updated_on>2022-12-11 10:08:45</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6fc1b1c01b339110025120a7b04bcb51"/>
+</record_update>
